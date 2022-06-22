@@ -32,9 +32,9 @@ ImageButton::ImageButton(QWidget *parent)
 {
     setParent(parent);
     setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
-    mButtonYellowPixmap = QPixmap("C:\\buttons\\Y.png");
-    mButtonRedPixmap = QPixmap("C:\\buttons\\R.png");
-    mButtonGreenPixmap = QPixmap("C:\\buttons\\G.png");
+    mButtonYellowPixmap = QPixmap(".\\Y.png");
+    mButtonRedPixmap = QPixmap(".\\R.png");
+    mButtonGreenPixmap = QPixmap(".\\G.png");
     mCurrentButtonPixmap = mButtonGreenPixmap;
     setGeometry(mCurrentButtonPixmap.rect());
 }
